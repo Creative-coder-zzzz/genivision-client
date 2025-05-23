@@ -19,8 +19,6 @@ const App = () => {
 
   return (
  <div className='px-4 sm:px-10 md:px-14 lg:px-28 min-h-screen bg-gradient-to-b from-[#0f2027] via-[#2c5364] to-[#00ff87]
-
-shadow-[0_0_40px_#00f0ff] backdrop-blur-md
  text-white'>
 
 
