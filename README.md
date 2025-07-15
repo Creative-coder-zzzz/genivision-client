@@ -72,3 +72,4 @@ Ensure that prompts are validated and sanitized before sending to the API.
 
 📬 Contact
 For queries or suggestions, feel free to reach out.
+sandeshadhikari2003@gmail.com or just whatsapp in 8927678560
