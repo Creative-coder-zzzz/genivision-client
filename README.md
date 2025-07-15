@@ -1,75 +1,88 @@
-🧠 Genivision — AI Image Generator
-Genivision is a powerful AI-powered image generation platform built with the MERN Stack and integrated with the ClipDrop API. Users can generate high-quality images by entering simple text prompts.
+# 🧠 Genivision — AI Image Generator
 
+**Genivision** is a powerful AI-powered image generation platform built using the **MERN Stack** and integrated with the **ClipDrop API**. Users can generate high-quality images simply by entering creative prompts — all powered by cutting-edge AI tools.
 
-**Visit site - https://genivision-client.vercel.app**
+🌐 **Live Site:** [https://genivision-client.vercel.app](https://genivision-client.vercel.app)
 
+---
 
+## 🚀 Features
 
-🚀 Features
-🔐 Secure Authentication – Users must log in to access image generation.
+- 🔐 **Secure Authentication** – Users must log in to access image generation.
+- 🎁 **Free Trial Credits** – Each user gets **5 free credits** upon signing up.
+- 🎨 **AI Image Generation** – Enter a prompt and click "Generate Now" to create unique images.
+- 💳 **Credit-Based System** – Users must buy credits after exhausting the free ones.
+- 🤖 **ClipDrop API Integration** – High-quality image generation powered by ClipDrop.
+- 🛠️ **Modern MERN Stack** – Built with MongoDB, Express.js, React, and Node.js.
 
-🎁 Free Trial Credits – Every user receives 5 free credits upon signing up/logging in.
+---
 
-🎨 AI-Powered Image Generation – Users can generate images by writing a prompt and clicking "Generate Now".
+## 📝 How It Works
 
-💳 Credit-Based System – After the free credits are used, users must purchase more credits to continue generating images.
+### 1️⃣ User Authentication
+- Users must sign up or log in to use the generator.
+- Auth is secured via JWT and Express middleware.
 
-🌐 Modern Stack – Built using the MERN Stack (MongoDB, Express.js, React, Node.js).
+### 2️⃣ Credit System
+- 🎉 New users get **5 free credits**.
+- 🖼️ Each image generation consumes **1 credit**.
+- 🛒 After depletion, users are prompted to **purchase credits** (coming soon / implemented).
 
-🤖 ClipDrop API – Uses ClipDrop’s API for high-quality image generation (initial 100 API credits available).
+### 3️⃣ Image Generation Flow
+- User logs in → enters a prompt (e.g., *"A futuristic city in the clouds"*) → clicks **Generate Now**.
+- The request is sent to the **ClipDrop API**, and the image is returned and displayed.
 
-📝 How It Works
-1. User Authentication
-Users must sign up or log in to access image generation features.
+---
 
-Auth is secured using industry best practices with Express and JWT.
+## 🔧 Tech Stack
 
-2. Credit System
-Each new user is granted 5 free image generation credits.
+| Technology     | Description                                    |
+|----------------|------------------------------------------------|
+| MongoDB        | Stores user profiles and credit balances       |
+| Express.js     | Handles backend routes and API logic           |
+| React.js       | Frontend user interface                        |
+| Node.js        | Backend runtime environment                    |
+| JWT            | Secure token-based authentication              |
+| ClipDrop API   | AI image generation engine (100 initial credits) |
 
-Every image generation request consumes 1 credit.
+---
 
-Once the free credits are exhausted, users are prompted to purchase additional credits to continue.
+## 🛒 Credit Purchase (Coming Soon / Implemented)
 
-3. Image Generation Flow
-After logging in, users:
+- 🔁 Credit recharge will be possible via **Razorpay / Stripe** (depending on integration).
+- ✅ User’s credit balance is updated **instantly** upon successful payment.
+- 🔐 Credit usage is validated in **both frontend and backend** to prevent abuse.
 
-Enter a text prompt (e.g., "A futuristic city in the clouds").
+---
 
-Click the "Generate Now" button.
+## 🖼️ Screenshots
 
-The backend sends the request to the ClipDrop API.
+<img width="1919" height="871" alt="Genivision Prompt" src="https://github.com/user-attachments/assets/7b92d650-1f0e-45b8-b739-747f9490f42a" />
+<br />
+<img width="1895" height="877" alt="Genivision Result" src="https://github.com/user-attachments/assets/6122b96f-3bf3-40e5-97a5-dff8f5906e86" />
 
-The generated image is returned and displayed in the UI.
+---
 
-🔧 Tech Stack
-Tech	Description
-MongoDB	For storing user data and credit balances
-Express.js	Backend server and API routes
-React.js	Frontend user interface
-Node.js	Server runtime environment
-ClipDrop API	AI image generation service (initial 100 API credits used)
-JWT	Secure token-based authentication
+## ⚙️ Developer Notes
 
-🛒 Credit Purchase (Coming Soon / Implemented)
-Users can recharge credits via a payment gateway (e.g., Razorpay, Stripe – based on your implementation).
+- 🧾 **API Usage**: ClipDrop API starts with **100 credits** – keep usage monitored.
+- 🛡️ Prompt validation is important to prevent spam or abuse.
+- 📦 Credit logic is enforced on **both client and server** to avoid manipulation.
 
-Credit balance updates instantly upon successful transaction.
+---
 
-⚙️ Developer Notes
-ClipDrop API has 100 initial credits, monitor usage and upgrade as needed.
+## 📬 Contact
 
-Credit logic is enforced in both frontend and backend to avoid abuse.
+Have a question or suggestion? Feel free to reach out!
 
-Ensure that prompts are validated and sanitized before sending to the API.
+- 📧 Email: [sandeshadhikari2003@gmail.com](mailto:sandeshadhikari2003@gmail.com)  
+- 📱 WhatsApp: [+91 89276 78560](https://wa.me/918927678560)
 
+---
 
-<img width="1919" height="871" alt="image" src="https://github.com/user-attachments/assets/7b92d650-1f0e-45b8-b739-747f9490f42a" />
-<img width="1895" height="877" alt="image" src="https://github.com/user-attachments/assets/6122b96f-3bf3-40e5-97a5-dff8f5906e86" />
+## 📄 License
 
+This project is licensed under the [MIT License](LICENSE).
 
+---
 
-📬 Contact
-For queries or suggestions, feel free to reach out.
-sandeshadhikari2003@gmail.com or just whatsapp in 8927678560
