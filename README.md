@@ -2,7 +2,10 @@
 Genivision is a powerful AI-powered image generation platform built with the MERN Stack and integrated with the ClipDrop API. Users can generate high-quality images by entering simple text prompts.
 
 
-**Visit site - https://genivision-client.vercel.app **
+**Visit site - https://genivision-client.vercel.app**
+
+
+
 🚀 Features
 🔐 Secure Authentication – Users must log in to access image generation.
 
